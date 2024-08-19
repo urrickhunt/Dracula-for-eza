@@ -1,20 +1,61 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [eza](https://github.com/eza-community/eza)
 
-> A dark theme for [Foobar](https://foobar.com).
+> A dark theme for [eza](https://github.com/eza-community/eza)
+<img width="1495" alt="eza" src="https://github.com/user-attachments/assets/ddc606ac-f10b-4a35-8cf8-c0ffc9035a3d">
 
-![Screenshot](./screenshot.png)
+#### Usage
 
-## Install
+To activate the theme in **eza**, you need to modify your `.zshrc file`.
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+#### Installation
+
+**Linux** & **macOS**
+
+1. Add the desired `eza_colors` theme to the end of your `.zshrc`:
+
+```zshrc
+# ---------------------
+# eza universal Dracula
+# ---------------------
+export EZA_COLORS="\
+uu=36:\
+uR=31:\
+un=35:\
+gu=37:\
+da=2;34:\
+ur=34:\
+uw=95:\
+ux=36:\
+ue=36:\
+gr=34:\
+gw=35:\
+gx=36:\
+tr=34:\
+tw=35:\
+tx=36:\
+xx=95:"
+```
+#### Suggested Aliases
+
+For normal or larger displays include group (`-g flag`):
+
+```zshrc
+alias zl='eza -lagX --icons --color=always'
+```
+
+For smaller or limited displays no group:
+
+```zshrc
+alias zl='eza -laX --icons --color=always'
+```
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme is maintained by the following person(s).
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) | [![Lucas de França](https://github.com/luxonauta.png?size=100)](https://github.com/luxonauta) |
-| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               | [Lucas de França](https://github.com/luxonauta)                                               |
+| [![urrickhunt](https://github.com/urrickhunt.png?size=100)](https://github.com/urrickhunt)|
+| ----------------------------------------------------------------------------------------- |
+| [urrickhunt](https://github.com/urrickhunt)                                               |
 
 ## Community
 
