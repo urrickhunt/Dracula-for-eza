@@ -51,7 +51,7 @@ alias zl='eza -laX --icons --color=always'
 
 **Windows**
 
-1. in either `Command Prompt` or `PowerShell` run the following with the desired theme:
+1. in either `Command Prompt` or `PowerShell` run the following with the universal theme:
 
 	`setx EZA_WINDOWS_ATTRIBUTES "short"`
 
