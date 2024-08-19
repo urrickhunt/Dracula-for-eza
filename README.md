@@ -49,6 +49,28 @@ For smaller or limited displays no group:
 alias zl='eza -laX --icons --color=always'
 ```
 
+**Windows**
+
+1. in either `Command Prompt` or `PowerShell` run the following with the desired theme:
+
+	`setx EZA_WINDOWS_ATTRIBUTES "short"`
+
+	`setx EZA_ICONS_AUTO "always"`
+
+	`setx EZA_COLORS "da=2;34:xx=95:ur=36:su=95:sf=36:pi=96"`
+
+2. Restart `Command Prompt` or `PowerShell`
+
+#### Suggested Aliases
+
+Add the following function to your PowerShell profile:
+
+```ps1
+function zl {
+    eza -lagSX --icons --color=always --time-style=long-iso
+}
+```
+
 ## Team
 
 This theme is maintained by the following person(s).
